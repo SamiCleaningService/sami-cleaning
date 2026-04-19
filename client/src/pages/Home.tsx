@@ -108,10 +108,13 @@ const serviceAreas = [
 ];
 
 const hours = [
-  { day: "Mon – Thu", time: "8:30 AM – 7:00 PM" },
-  { day: "Friday", time: "11:00 AM – 8:00 PM" },
-  { day: "Saturday", time: "9:00 AM – 7:00 PM" },
-  { day: "Sunday", time: "10:00 AM – 5:30 PM" },
+  { day: "Sunday", time: "8:00 AM – 6:00 PM" },
+  { day: "Monday", time: "8:00 AM – 6:00 PM" },
+  { day: "Tuesday", time: "8:00 AM – 6:00 PM" },
+  { day: "Wednesday", time: "8:00 AM – 6:00 PM" },
+  { day: "Thursday", time: "8:00 AM – 6:00 PM" },
+  { day: "Friday", time: "8:00 AM – 6:00 PM" },
+  { day: "Saturday", time: "8:00 AM – 6:00 PM" },
 ];
 
 const navLinks = [
