@@ -149,7 +149,7 @@ export default function Home() {
             <img
               src="/manus-storage/sami-logo_71d4fb5e.png"
               alt="Sami Cleaning Services Logo"
-              className="w-10 h-10 object-contain"
+              className="w-14 h-14 md:w-16 md:h-16 object-contain"
             />
           </a>
 
@@ -726,14 +726,14 @@ export default function Home() {
         <div className="container">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             {/* Brand */}
-            <div className="flex items-center gap-2.5">
+            <div className="flex items-center gap-3">
               <img
                 src="/manus-storage/sami-logo_71d4fb5e.png"
                 alt="Sami Cleaning Services Logo"
-                className="w-10 h-10 object-contain"
+                className="w-14 h-14 object-contain"
               />
               <div>
-                <p className="font-[Fraunces,Georgia,serif] text-white font-semibold text-base">
+                <p className="font-[Fraunces,Georgia,serif] text-white font-semibold text-lg">
                   Sami Cleaning Services
                 </p>
                 <p className="text-white/40 text-xs">Premium Cleaning in Solano County</p>
