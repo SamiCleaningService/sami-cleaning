@@ -160,7 +160,7 @@ export default function Home() {
             <img
               src="/manus-storage/sami-logo_71d4fb5e.png"
               alt="Sami Cleaning Services Logo"
-              className="w-24 h-24 md:w-32 md:h-32 object-contain"
+              className="w-32 h-32 md:w-40 md:h-40 object-contain"
             />
           </a>
 
@@ -801,7 +801,7 @@ export default function Home() {
               <img
                 src="/manus-storage/sami-logo_71d4fb5e.png"
                 alt="Sami Cleaning Services Logo"
-                className="w-20 h-20 object-contain shrink-0"
+                className="w-28 h-28 object-contain shrink-0"
               />
               <div>
                 <p className="font-[Fraunces,Georgia,serif] text-white font-semibold text-xl">
