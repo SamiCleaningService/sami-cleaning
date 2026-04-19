@@ -730,14 +730,14 @@ export default function Home() {
             {/* Email */}
             <motion.a
               {...fadeUp(0.1)}
-              href="mailto:sam.businesservices@gmail.com"
+              href="mailto:sam.businesservices@outlook.com"
               className="group bg-[#F8FAFC] border border-slate-200 rounded-2xl p-6 text-center hover:border-sky-300 hover:shadow-md transition-all"
             >
               <div className="w-12 h-12 bg-sky-100 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-sky-200 transition-colors">
                 <Mail className="w-5 h-5 text-sky-600" />
               </div>
               <p className="text-slate-400 text-xs font-semibold uppercase tracking-wider mb-1">Email</p>
-              <p className="text-slate-900 font-bold text-sm break-all">sam.businesservices@gmail.com</p>
+              <p className="text-slate-900 font-bold text-sm break-all">sam.businesservices@outlook.com</p>
               <p className="text-sky-600 text-sm mt-1 font-medium">Send a message</p>
             </motion.a>
 
@@ -781,7 +781,7 @@ export default function Home() {
                 Call or Text Now
               </a>
               <a
-                href="mailto:sam.businesservices@gmail.com"
+                href="mailto:sam.businesservices@outlook.com"
                 className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-semibold px-6 py-3 rounded-full border border-white/30 transition-all"
               >
                 <Mail className="w-4 h-4" />
@@ -834,7 +834,7 @@ export default function Home() {
                 <Phone className="w-4 h-4" />
               </a>
               <a
-                href="mailto:sam.businesservices@gmail.com"
+                href="mailto:sam.businesservices@outlook.com"
                 className="text-white/60 hover:text-sky-400 transition-colors"
                 aria-label="Email us"
               >
