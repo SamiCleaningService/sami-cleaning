@@ -31,7 +31,7 @@ const HERO_IMG =
 const RESIDENTIAL_IMG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663574997634/3cKUuKGxrkBKP9LdUxy6sY/residential-cleaning-m2Xcn3cbX6q63KRKosF6a6.webp";
 const AIRBNB_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663574997634/3cKUuKGxrkBKP9LdUxy6sY/woman-black-shirt-exact-logo-TCoBVeeBdi7HQDEWPiY4rQ.webp";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663574997634/3cKUuKGxrkBKP9LdUxy6sY/woman-sami-logo-shirt-CZNCeJLsJmYPPyCru6Pshd.webp";
 const DEEP_IMG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663574997634/3cKUuKGxrkBKP9LdUxy6sY/deep-cleaning-Mbve7CXMGSsC7B5VLENqUB.webp";
 
