@@ -29,7 +29,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const HERO_IMG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663574997634/3cKUuKGxrkBKP9LdUxy6sY/hero-cleaning-FnSV6HECuZZbRkwkTTkZKh.webp";
 const RESIDENTIAL_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663574997634/3cKUuKGxrkBKP9LdUxy6sY/residential-cleaning-m2Xcn3cbX6q63KRKosF6a6.webp";
+  "/manus-storage/woman-cleaning-with-logo_ebd0ecb4.png";
 const AIRBNB_IMG =
   "/manus-storage/woman-with-user-logo_c72615e8.png";
 const DEEP_IMG =
