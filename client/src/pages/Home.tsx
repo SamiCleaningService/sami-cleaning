@@ -35,7 +35,7 @@ const AIRBNB_IMG =
 const DEEP_IMG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663574997634/3cKUuKGxrkBKP9LdUxy6sY/deep-cleaning-Mbve7CXMGSsC7B5VLENqUB.webp";
 const OFFICE_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663574997634/3cKUuKGxrkBKP9LdUxy6sY/office-cleaning-Mjti8yjpEFn4oGJgViXjqi.webp";
+  "/manus-storage/office-cleaning-with-logo_d2b00698.png";
 
 const services = [
   {
