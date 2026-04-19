@@ -146,16 +146,11 @@ export default function Home() {
         <div className="container flex items-center justify-between h-16 md:h-18">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-full bg-sky-600 flex items-center justify-center shadow-sm">
-              <Sparkles className="w-4 h-4 text-white" />
-            </div>
-            <span
-              className={`font-[Fraunces,Georgia,serif] font-semibold text-lg leading-tight transition-colors ${
-                scrolled ? "text-slate-900" : "text-white"
-              }`}
-            >
-              Sami Cleaning
-            </span>
+            <img
+              src="/manus-storage/sami-logo_71d4fb5e.png"
+              alt="Sami Cleaning Services Logo"
+              className="w-10 h-10 object-contain"
+            />
           </a>
 
           {/* Desktop nav */}
@@ -732,9 +727,11 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             {/* Brand */}
             <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-full bg-sky-600 flex items-center justify-center">
-                <Sparkles className="w-4 h-4 text-white" />
-              </div>
+              <img
+                src="/manus-storage/sami-logo_71d4fb5e.png"
+                alt="Sami Cleaning Services Logo"
+                className="w-10 h-10 object-contain"
+              />
               <div>
                 <p className="font-[Fraunces,Georgia,serif] text-white font-semibold text-base">
                   Sami Cleaning Services
