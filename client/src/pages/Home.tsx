@@ -265,7 +265,7 @@ export default function Home() {
             >
               We Keep Your Space{" "}
               <span className="text-sky-300 italic">Guest-Ready</span>
-              {" "}— Every Time
+              {" "}Every Time
             </motion.h1>
 
             <motion.p
