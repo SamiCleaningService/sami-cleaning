@@ -34,6 +34,8 @@ const AIRBNB_IMG =
   "/manus-storage/woman-with-user-logo_c72615e8.png";
 const DEEP_IMG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663574997634/3cKUuKGxrkBKP9LdUxy6sY/deep-cleaning-Mbve7CXMGSsC7B5VLENqUB.webp";
+const OFFICE_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663574997634/3cKUuKGxrkBKP9LdUxy6sY/office-cleaning-Mjti8yjpEFn4oGJgViXjqi.webp";
 
 const services = [
   {
@@ -77,6 +79,13 @@ const services = [
     desc: "Hospitality-grade attention to detail that passes even the strictest inspections.",
     color: "bg-violet-50 text-violet-700",
     border: "border-violet-200",
+  },
+  {
+    icon: Hotel,
+    title: "Office Cleaning",
+    desc: "Professional office spaces kept spotless and sanitized for a productive work environment.",
+    color: "bg-cyan-50 text-cyan-700",
+    border: "border-cyan-200",
   },
 ];
 
@@ -534,6 +543,66 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0F2744]/25 to-transparent" />
               </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── OFFICE CLEANING ──────────────────────────────────── */}
+      <section id="office" className="py-20 bg-white">
+        <div className="container">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <motion.div {...fadeUp(0.1)} className="relative">
+              <div className="relative rounded-2xl overflow-hidden shadow-xl">
+                <img
+                  src={OFFICE_IMG}
+                  alt="Professional office cleaning service"
+                  className="w-full h-80 md:h-96 object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0F2744]/30 to-transparent" />
+              </div>
+              {/* Floating badge */}
+              <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-lg px-4 py-3 border border-slate-100">
+                <p className="text-slate-700 text-sm font-semibold">Corporate Spaces</p>
+                <p className="text-slate-400 text-xs mt-0.5">Sanitized & Spotless</p>
+              </div>
+            </motion.div>
+
+            <motion.div {...fadeUp()}>
+              <p className="text-sky-600 font-semibold text-sm tracking-widest uppercase mb-3">
+                🏢 Office Cleaning
+              </p>
+              <h2 className="font-[Fraunces,Georgia,serif] text-3xl md:text-4xl font-bold text-slate-900 mb-5 leading-tight">
+                Professional Office Cleaning
+              </h2>
+              <p className="text-slate-600 text-lg mb-6 leading-relaxed">
+                Keep your corporate workspace spotless and sanitized for a productive, healthy work environment.
+              </p>
+              <ul className="space-y-3 mb-8">
+                {[
+                  "Daily or weekly office cleaning",
+                  "Desk and workspace sanitization",
+                  "Conference room preparation",
+                  "Break room and restroom cleaning",
+                  "Floor care and maintenance",
+                  "Flexible scheduling around business hours",
+                ].map((item) => (
+                  <li key={item} className="flex items-center gap-3 text-slate-700">
+                    <CheckCircle2 className="w-5 h-5 text-sky-500 shrink-0" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-slate-500 italic text-sm mb-6">
+                A clean office is a productive office. Let us handle the cleaning so your team can focus on what matters.
+              </p>
+              <a
+                href="#contact"
+                className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 rounded-full transition-all shadow hover:shadow-md"
+              >
+                Schedule Office Cleaning
+                <ArrowRight className="w-4 h-4" />
+              </a>
             </motion.div>
           </div>
         </div>
