@@ -143,13 +143,13 @@ export default function Home() {
             : "bg-transparent"
         }`}
       >
-        <div className="container flex items-center justify-between h-16 md:h-18">
+        <div className="container flex items-center justify-between h-auto py-3 md:py-4">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2 group">
+          <a href="#" className="flex items-center gap-2 group shrink-0">
             <img
               src="/manus-storage/sami-logo_71d4fb5e.png"
               alt="Sami Cleaning Services Logo"
-              className="w-14 h-14 md:w-16 md:h-16 object-contain"
+              className="w-24 h-24 md:w-32 md:h-32 object-contain"
             />
           </a>
 
@@ -726,17 +726,17 @@ export default function Home() {
         <div className="container">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             {/* Brand */}
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-4">
               <img
                 src="/manus-storage/sami-logo_71d4fb5e.png"
                 alt="Sami Cleaning Services Logo"
-                className="w-14 h-14 object-contain"
+                className="w-20 h-20 object-contain shrink-0"
               />
               <div>
-                <p className="font-[Fraunces,Georgia,serif] text-white font-semibold text-lg">
+                <p className="font-[Fraunces,Georgia,serif] text-white font-semibold text-xl">
                   Sami Cleaning Services
                 </p>
-                <p className="text-white/40 text-xs">Premium Cleaning in Solano County</p>
+                <p className="text-white/40 text-sm">Premium Cleaning in Solano County</p>
               </div>
             </div>
 
