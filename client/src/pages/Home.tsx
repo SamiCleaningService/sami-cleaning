@@ -95,7 +95,6 @@ const serviceAreas = [
   "Vallejo",
   "American Canyon",
   "Napa",
-  "Dixon",
   "Benicia",
 ];
 
