@@ -94,7 +94,7 @@ const whyUs = [
   { icon: "🏨", label: "Hotel-GM & OSHA Certified" },
   { icon: "🏡", label: "Airbnb Specialist" },
   { icon: "⏰", label: "Reliable & On Time" },
-  { icon: "💬", label: "Professional, Non-Sketchy Communication" },
+  { icon: "✨", label: "Fully Insured & Licensed" },
 ];
 
 const serviceAreas = [
